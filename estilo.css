@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+   margin-top: 180px;
+   margin-left: 480px;
+    background-color: #f0f0f0;
+}
+
+.bandera-contenedor {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.bandera-superior, .bandera-central, .bandera-inferior {
+    position: absolute;
+    width: 100%;
+    height: 33.33%;
+}
+
+.bandera-superior {
+    margin-top: 0px;
+    background-color: #e8719a;
+}
+
+.bandera-central {
+    margin-top: 65px;
+    background-color: #e05787;
+}
+
+.bandera-inferior {
+    margin-top: 130px;
+    background-color: #c44f86;
+}
+
+.simbolo-central {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 73px;
+    margin-left: 130px;
+}
